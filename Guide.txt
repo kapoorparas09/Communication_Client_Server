@@ -1,0 +1,21 @@
+***********Main files***********
+1. Server.py/4feb.py
+2. client_write.py
+3. client_read.py
+
+Pymodbus
+1. for local server connectivty. Download and install Diagslave, Launch Virtual serial port.
+2. Run Diagslave in cmd from the folder itself.
+3. CMD:- diagslave -m tcp -p 502 (this will initiate the server)
+
+Local system:-
+4. server.py (run server)
+5. After running server run write.py
+6. Then run read.py
+
+Another system:-
+7. Turn of wifi and open ethernet settings.
+8. Change ip address accordingly (nearly same as server's ip).
+9. Run read.py file in system.
+
+NOTE:- Local and another system should work offline.
